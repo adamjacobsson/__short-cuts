@@ -1,6 +1,0 @@
-{
-  "venv": "venv",
-  "reportMissingImports": false,
-  "reportMissingTypeStubs": false,
-  "reportGeneralTypeIssues": false
-}
