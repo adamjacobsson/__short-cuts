@@ -1,4 +1,4 @@
-mkdir  ~/adamamer
-ln ZzzZz/* ~/adamamer
-echo "for file in "~/adamamer/"*.sh; do source "$file"; done" >> ~/.zshrc
+mkdir  ~/adamame
+ln ZzzZz/* ~/adamame
+echo "for file in "~/adamame/"*.sh; do source "$file"; done" >> ~/.zshrc
 
