@@ -6,7 +6,7 @@ cpy() {
 	fi
 
 	mkdir -p  $1/source
-	cp ~/conf/pyright/pyrightconfig.json $1
+	cp "$(dirname $0)"/pyrightconfig.json $1
 	cd $1/source
 	touch app.py
 
