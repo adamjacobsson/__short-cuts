@@ -6,8 +6,7 @@ cpy() {
     	return 0
 	fi
 
-	mkdir -p  $1/source
-	cd $1/source
+	mcd  $1/source
 	touch app.py
 
 	venv
