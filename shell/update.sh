@@ -10,8 +10,8 @@ BASE=$(git merge-base @ "$UPSTREAM")
 if [ $LOCAL = $REMOTE ]; then
     echo "Up-to-date"
 elif [ $LOCAL = $BASE ]; then
-    read -p 'adamame is behind, do you wish to pull latest? [y/n]: ' choice
-    if [ choice == 'y']; then
+    vared -p "adamame is behind, do you wish to pull latest? [y/n]: " -c yn
+    if [ "$yn" = "y" ]; then
         git pull
     fi
 fi
