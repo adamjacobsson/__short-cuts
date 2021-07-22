@@ -1,6 +1,3 @@
-mkdir -p  ~/adamame
-cp -r shell/* ~/adamame
-
 STRING=$(cat ~/.zshrc | grep -c "adamame")
 SCRIPT_PATH=$(pwd)
 if [ "$STRING" -eq 0 ]; then 
